@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "TikTok Audio Downloader",
+    "version": "1.0",
+    "description": "Download audio from TikTok videos.",
+    "permissions": [
+      "downloads",
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Download TikTok Audio"
+    }
+  }
+  
